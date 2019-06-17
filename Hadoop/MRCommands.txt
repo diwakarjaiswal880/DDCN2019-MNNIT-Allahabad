@@ -1,0 +1,8 @@
+
+hadoop fs -put file.txt file
+
+javac -cp /usr/lib/hadoop/*:/usr/lib/hadoop-mapreduce/* WordCount.java
+
+jar cvf wordcount.jar *.class
+
+hadoop jar wordcount.jar WordCount file WCoutput
