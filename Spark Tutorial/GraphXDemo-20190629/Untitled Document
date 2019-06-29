@@ -1,0 +1,3 @@
+Inside Flights Directory:-
+spark-submit --class FlightApp --master local /media/soura/2064-4D79/
+Practicals/GraphXDemo/flights/target/sparkgraphx-1.0.jar /media/soura/2064-4D79/Practicals/GraphXDemo/flights/rita2014jan.csv
